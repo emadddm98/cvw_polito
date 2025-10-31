@@ -1,0 +1,9 @@
+#!/bin/bash
+module load license/default
+module load synopsys/vcs/2023.12-SP1 
+# module load compiler/riscv/general32_64
+module load synopsys/syn/2022.12
+module load compiler/riscv/wally
+module load synopsys/tmax/2022.12
+
+source setup.sh
